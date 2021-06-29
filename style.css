@@ -615,8 +615,9 @@ video {
   --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.m-48 {
-  margin: 12rem;
+.inset-y-px {
+  top: 1px;
+  bottom: 1px;
 }
 
 .mx-auto {
@@ -654,6 +655,10 @@ video {
 
 .max-w-screen-2xl {
   max-width: 1536px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-end {
@@ -705,6 +710,11 @@ video {
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
 }
 
 .p-12 {
