@@ -1,0 +1,6 @@
+Bismillah... Agar bisa terpenuhi materi pembahasan selama belajar..
+Baiknya kita list dibawah ini apa aja yang akan kita bahas di setaip pertemuan nanti :
+
+Daftar usulan :
+1. Branch
+2. Merubah Halaman Menjadi Responsive di Tailwind
