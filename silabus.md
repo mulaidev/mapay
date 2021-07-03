@@ -1,5 +1,6 @@
-Bismillah... Agar bisa terpenuhi materi pembahasan selama belajar..
-Baiknya kita list dibawah ini apa aja yang akan kita bahas di setaip pertemuan nanti,
+# Silabus Mulai Frontend
+
+Disusun oleh @siriokun @mrgood82
 
 ## Materi Dasar Git
 
