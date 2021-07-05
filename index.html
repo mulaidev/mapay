@@ -13,108 +13,146 @@
 
     <!-- INI BAGIAN NAVIGASI -->
 
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-    <div class="p-0">
-        <div class="antialiased bg-blue-900 ">
-            <div class="w-full text-white bg-blue-900 dark-mode:text-gray-200 dark-mode:bg-gray-800">
-                <div x-data="{ open: true }"
-                    class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
-                    <div class="flex flex-row items-center justify-between p-4">
-                        <a href="#"
-                            class="text-lg font-semibold tracking-widest text-white  uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Mapay.</a>
-                        <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline"
-                            @click="open = !open">
-                            <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-                                <path x-show="!open" fill-rule="evenodd"
-                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                                    clip-rule="evenodd"></path>
-                                <path x-show="open" fill-rule="evenodd"
-                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </button>
-                    </div>
-                    <nav :class="{'flex': open, 'hidden': !open}"
-                        class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-                        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                            href="#">About Us</a>
-                        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                            href="#">Features</a>
-                        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                            href="#">Offers</a>
-                        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                            href="#">Blog</a>
-                    </nav>
-                </div>
+    <div class="bg-blue-900 p-6 md:p-12">
+        <div class="w-full px-4 mx-auto max-w-screen-2xl sm:px-6 md:px-8">
+            <div class="flex items-center justify-between h-14">
+                <a class="flex items-end space-x-2 whitespace-nowrap" href="#">
+                    <span class="
+                text-xl
+                font-semibold
+                leading-none
+                tracking-tight
+                text-white
+              ">Mapay</span><span class="
+                text-xl
+                font-semibold
+                leading-none
+                tracking-tight
+                text-yellow-500
+              ">.</span>
+                </a>
+                <ul class="
+              items-center
+              hidden
+              space-x-6
+              text-sm
+              font-medium
+              text-gray-600
+              md:flex
+            ">
+                    <li>
+                        <a class="
+                  py-2
+                  hover:bg-red-700
+                  p-5
+                  transition
+                  rounded-lg
+                  text-white
+                  focus:outline-none
+                " href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="
+                  py-2
+                  hover:bg-red-700
+                  p-5
+                  transition
+                  rounded-lg
+                  text-white
+                  focus:outline-none
+                " href="#">Features</a>
+                    </li>
+                    <li>
+                        <a class="
+                  py-2
+                  hover:bg-red-700
+                  transition
+                  p-5
+                  rounded-lg
+                  text-white
+                  focus:outline-none
+                " href="#">Offers</a>
+                    </li>
+                    <li>
+                        <a class="
+                  py-2
+                  hover:bg-red-700
+                  transition
+                  p-5
+                  rounded-lg
+                  text-white
+                  focus:outline-none
+                " href="#">Blog</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-
-    <div class="bg-yellow-900 p-12 min-h-screen bg-cover bg-center"
-        style="background-image: url(https://pixabay.com/get/g3f9929a344014821ac7afddcd99311a6fa32b785720b7bf3dc9dce289a573fdcccf2ffed176e50122a4b7355f0cd61df_1920.jpg)">
-        <div class="text-white m-36 mb-5">
-            <p>Explore our Apps</p>
-            <h1 class="text-4xl mt-5">Find something inspires you?
-                Take it as your own and start planning!</h1><br>
-            <p>Browse and search an ever-growing collection <br> of exciting and unique trips, custom built <br> by
-                travelers like you from <br> all over the world</p>
-            <br><br>
-            <p><a href="#" class="rounded-full py-3 px-6 bg-yellow-500">Plan a trip</a></p>
-        </div>
-    </div>
     </div>
 
     <!-- INI TUTUP BAGIAN NAVIGASI -->
 
     <!-- INI BAGIAN HEADER -->
     <header>
-        <div class="bg-blue-900 p-12 text-white  min-h-screen">
-            <h1 class="text-5xl mb-5" style="margin-top: 100px; margin-left: 200px; margin-right: 200px;">
+        <div class="bg-blue-900 text-white min-h-screen p-12 md:p-60">
+            <h1 class="text-5xl mb-5">
                 Sign up now and get an unforgettable trip experiences
             </h1>
-            <p style="margin-left: 200px;">
+            <p class="mb-7">
                 The Ravel Trips app curates experiences as diverse as our users so they can
                 travel confident
             </p>
-            <br /><br />
             <p>
-                <a href="#" class="rounded-full py-3 px-6 bg-yellow-500" style="margin-left: 200px;">Plan a trip</a>
+                <a href="#" class="rounded-full py-3 px-6 bg-yellow-500">Plan a trip</a>
             </p>
 
         </div>
-        <header>
+    </header>
             <!-- TUTUP INI BAGIAN HEADER -->
 
             <!--INI ADALAH BAGIAN KONTEN -->
 
             <!-- Baris konten 1 -->
-            <konten1>
 
-                <div class="p-12 ">
-                    <div class="grid grid-cols-2">
-                        <div>
-                            <a href="#">
-                                <p class="text-blue-700 mb-7"><img src="img/Vector.png" class="float-left mr-3">
-                                    Ravel</p>
-                            </a>
-                            <p class="text-5xl mb-7 font-semibold">Built by travelers,
-                                <br>for travelers</p>
-                            <p class="mb-7">There is information overload and it takes an enormous amount of
-                                time to plan a unique trip</p>
-                            <p>By suggesting trips already created by other travelers and tailored to you,
-                                it's super easy to create your next travel adventure and seamlessly share your
-                                experience with friends on the go</p>
-                        </div>
-                        <div>
-                            <img src="img/img-about.png ">
-                        </div>
+            <div class="p-12 ">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div>
+                        <a href="#">
+                            <p class="text-blue-700 mb-7"><img src="img/Vector.png" class="float-left mr-3">
+                                Ravel</p>
+                        </a>
+                        <p class="text-5xl mb-7 font-semibold">Built by travelers,
+                            <br>for travelers</p>
+                        <p class="mb-7">There is information overload and it takes an enormous amount of
+                            time to plan a unique trip</p>
+                        <p>By suggesting trips already created by other travelers and tailored to you,
+                            it's super easy to create your next travel adventure and seamlessly share your
+                            experience with friends on the go</p>
+                    </div>
+                    <div>
+                        <img src="img/img-about.png ">
                     </div>
                 </div>
-
-            </konten1>
+            </div>
 
             <!-- tutup baris konten 1 -->
 
+            <!-- Baagian konten 2 -->
+            <div class="bg-white p-12 min-h-screen bg-cover bg-center "  style="background-image: url(img/img-bridge.jpg)" > 
+                <div href="#" class="absolute mt-72" ><img src="img/img-back.png"></div>
+                    <div class="text-gray-300 m-0 md:m-36 mb-5">
+                        <p> <img src="img/Vector.png" class="float-left mr-3"> Explore our Apps</p>
+                        <h1 class="text-4xl mt-5">Find something inspires you?
+                            Take it as your own and start planning!</h1><br>
+                        <p>Browse and search an ever-growing collection <br> of exciting and unique trips, custom built <br> by
+                    travelers like you from <br> all over the world</p> 
+                <br><br>
+                <p><a href="#" class="rounded-full py-3 px-6 bg-yellow-500">Plan a trip</a></p>
+                <div href="#" class="absolute -mt-48 md:ml-96" ><img src="img/img-next.png" class="mt-5"></div>
+              </div>
+            </div>
+
+
+            <!-- TUTUP BAGIAN KONTEN 2 -->
 
             <!-- TUTUP BAGIAN KONTEN -->
 
