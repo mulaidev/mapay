@@ -615,8 +615,24 @@ video {
   --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.float-right {
+  float: right;
 }
 
 .float-left {
@@ -658,6 +674,58 @@ video {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.ml-96 {
+  margin-left: 24rem;
+}
+
+.ml-60 {
+  margin-left: 15rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.-mt-44 {
+  margin-top: -11rem;
+}
+
+.-mt-36 {
+  margin-top: -9rem;
+}
+
+.-mt-32 {
+  margin-top: -8rem;
+}
+
+.-mr-12 {
+  margin-right: -3rem;
+}
+
+.-mr-10 {
+  margin-right: -2.5rem;
+}
+
+.-mr-96 {
+  margin-right: -24rem;
 }
 
 .flex {
