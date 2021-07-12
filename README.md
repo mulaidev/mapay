@@ -1,6 +1,6 @@
 # mapay
 
-HTML Landing page using Tailwind 2 from [this Figma](https://www.figma.com/file/0dH2XtgZ0d1psBQzeHZtSo/Web-Exploration-Copy?node-id=234%3A136) by Faris Prayoga
+HTML Landing page using Tailwind 2 from [this Figma](https://www.figma.com/file/0dH2XtgZ0d1psBQzeHZtSo/Portfolio?node-id=234%3A125) by [Faris Prayoga](https://dribbble.com/yogafm)
 
 ## Quick Setup
 
