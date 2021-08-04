@@ -1,0 +1,10 @@
+{
+  "name": "mapay",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx tailwindcss -o style.css --watch --jit"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
