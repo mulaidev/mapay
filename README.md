@@ -10,6 +10,10 @@ HTML Landing page using Tailwind 2 from [this Figma](https://www.figma.com/file/
 4. Open HTML file and click that *Go Live* icon in bottom right corner
 5. Edit HTML file and your style.css will be updated while you add more class
 
+## Silabus
+
+https://github.com/mulaidev/mapay/blob/main/silabus.md
+
 ## Demo
 
 https://mulaidev.github.io/mapay/
@@ -27,3 +31,7 @@ https://mulaidev.github.io/mapay/
 3. Where can I discuss my problem about this code?
 
     Open [new discussion](https://github.com/mulaidev/mapay/discussions/new)
+
+4. How to contribute?
+
+    See [kontribusi.md](https://github.com/mulaidev/mapay/blob/main/kontribusi.md)
