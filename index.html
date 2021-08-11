@@ -1,207 +1,563 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapay.</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://icon-sets.iconify.design/" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mapay.</title>
-        <link href="style.css" rel="stylesheet" />
+  <body>
+    <div style="background-image: url(./img/bg-hero.jpg)">
+      <!-- INI BAGIAN NAVIGASI -->
+      <div class="md:p-12">
+        <div class="w-full px-4 mx-auto max-w-screen-2xl sm:px-6 md:px-8">
+          <div class="flex items-center justify-between h-14">
+            <a class="flex items-end space-x-2 whitespace-nowrap" href="#">
+              <span
+                class="
+                  text-xl
+                  font-semibold
+                  leading-none
+                  tracking-tight
+                  text-white
+                "
+                >Mapay</span
+              ><span
+                class="
+                  text-xl
+                  font-semibold
+                  leading-none
+                  tracking-tight
+                  text-yellow-500
+                "
+                >.</span
+              >
+            </a>
+            <ul
+              class="
+                items-center
+                hidden
+                space-x-6
+                text-sm
+                font-medium
+                text-gray-600
+                md:flex
+              "
+            >
+              <li>
+                <a
+                  class="
+                    py-2
+                    hover:bg-red-700
+                    p-5
+                    transition
+                    rounded-lg
+                    text-white
+                    focus:outline-none
+                  "
+                  href="#bagian1"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  class="
+                    py-2
+                    hover:bg-red-700
+                    p-5
+                    transition
+                    rounded-lg
+                    text-white
+                    focus:outline-none
+                  "
+                  href="#bagian2"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  class="
+                    py-2
+                    hover:bg-red-700
+                    transition
+                    p-5
+                    rounded-lg
+                    text-white
+                    focus:outline-none
+                  "
+                  href="#bagian3"
+                  >Offers</a
+                >
+              </li>
+              <li>
+                <a
+                  class="
+                    py-2
+                    hover:bg-red-700
+                    transition
+                    p-5
+                    rounded-lg
+                    text-white
+                    focus:outline-none
+                  "
+                  href="#bagian4"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- INI TUTUP BAGIAN NAVIGASI -->
+      <!-- INI BAGIAN HEADER -->
+      <header class="text-white md:min-h-screen py-12 md:py-60">
+        <div class="w-full px-4 mx-auto max-w-screen-2xl sm:px-6 md:px-40">
+          <h1 class="text-3xl md:text-5xl mb-5">
+            Sign up now and get an unforgettable trip experiences
+          </h1>
+          <p class="mb-7">
+            The Ravel Trips app curates experiences as diverse as our users so
+            they can travel confident
+          </p>
+          <p>
+            <a href="#" class="rounded-full py-3 px-6 bg-yellow-500"
+              >Plan a trip</a
+            >
+            <img src="img/Logo-Appstore.png" class="inline-block" />
+          </p>
+        </div>
+      </header>
+      <!-- TUTUP INI BAGIAN HEADER -->
+    </div>
 
-    </head>
+    <!--INI ADALAH BAGIAN KONTEN -->
 
-    <body>
+    <!-- Baris konten 1 -->
 
-        <!-- INI BAGIAN NAVIGASI -->
+    <div
+      class="w-full mx-auto max-w-screen-2xl my-20 px-4 sm:px-6 md:px-40"
+      id="bagian1"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="mr-20">
+          <p class="text-blue-700 mb-7">
+            <img src="img/icon-plane.png" class="float-left mr-3" /> Why Mapay
+          </p>
+          <p class="text-5xl mb-7 font-semibold">
+            Built by travelers, <br />for travelers
+          </p>
+          <p class="mb-7">
+            There is information overload and it takes an enormous amount of
+            time to plan a unique trip
+          </p>
+          <p>
+            By suggesting trips already created by other travelers and tailored
+            to you, it's super easy to create your next travel adventure and
+            seamlessly share your experience with friends on the go
+          </p>
+        </div>
+        <div class="text-right mt-5 md:mt-0">
+          <img class="inline max-w-full" src="img/img-about.png " />
+        </div>
+      </div>
+      <img
+        class="my-5 md:my-24 mx-auto max-w-full"
+        src="img/step.png"
+        alt="Steps"
+      />
+    </div>
 
-        <div class="bg-blue-900 md:p-12">
-            <div class="w-full px-4 mx-auto max-w-screen-2xl sm:px-6 md:px-8">
-                <div class="flex items-center justify-between h-14">
-                    <a class="flex items-end space-x-2 whitespace-nowrap" href="#">
-                        <span class="
-                text-xl
-                font-semibold
-                leading-none
-                tracking-tight
-                text-white
-              ">Mapay</span><span class="
-                text-xl
-                font-semibold
-                leading-none
-                tracking-tight
-                text-yellow-500
-              ">.</span>
-                    </a>
-                    <ul class="
-              items-center
-              hidden
-              space-x-6
+    <!-- tutup baris konten 1 -->
+
+    <!-- Bagian konten 2 -->
+    <div
+      class="
+        bg-cover bg-center
+        w-full
+        mx-auto
+        max-w-screen-2xl
+        py-12
+        px-4
+        sm:px-6
+        md:px-8
+      "
+      style="background-image: url(img/bg-slide.png)"
+      id="bagian2"
+    >
+      <img src="img/img-iphone.png" class="float-left" />
+      <div class="text-white m-0 md:m-36 mb-5">
+        <p>
+          <img
+            src="img/icon-plane.png"
+            class="
+              ml-3
+              mr-3
+              mb-3
+              filter
+              invert
+              grayscale
+              contrast-100
+              brightness-100
+            "
+          />
+          Explore our Apps
+        </p>
+        <h1 class="text-4xl mt-5">
+          Find something inspires you? Take it as your own and start planning!
+        </h1>
+        <br />
+        <p>
+          Browse and search an ever-growing collection <br />
+          of exciting and unique trips, custom built <br />
+          by travelers like you from <br />
+          all over the world
+        </p>
+        <br /><br />
+        <p>
+          <a href="#" class="rounded-full py-3 px-6 bg-yellow-500"
+            >Plan a trip</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- TUTUP BAGIAN KONTEN 2 -->
+
+    <!-- Bagian konten 3 -->
+
+    <div
+      class="
+        w-full
+        mx-auto
+        max-w-screen-2xl
+        my-20
+        md:mt-60
+        px-4
+        sm:px-6
+        md:px-40
+        clear-both
+      "
+      id="bagian3"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="mr-20">
+          <p class="text-blue-700 mb-7">
+            <img src="img/icon-plane.png" class="float-left mr-3" /> Get
+            Inspired
+          </p>
+          <p class="text-5xl mb-7 font-semibold">
+            Discover trips published and create your own template
+          </p>
+          <p class="mb-7">
+            There are 8.6 million tripadvisor entries. Ravel helps to gather and
+            frame your travel ideas to easily plan your trip from your bucket
+            list
+          </p>
+        </div>
+        <div class="text-right">
+          <img class="inline max-w-full" src="img/illustration-couple.png " />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="
+        w-full
+        mx-auto
+        max-w-screen-2xl
+        my-20
+        px-4
+        sm:px-6
+        md:px-40
+        clear-both
+      "
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="mr-20">
+          <img class="inline max-w-full" src="img/illustration-freedom.png " />
+        </div>
+        <div>
+          <p class="text-blue-700 mb-7">
+            <img src="img/icon-plane.png" class="float-left mr-3" /> Plan Easily
+          </p>
+          <p class="text-5xl mb-7 font-semibold">
+            Build your own trip from scratch
+          </p>
+          <p class="mb-7">
+            Mapay drives efficiency by pushing only relevant content/suggestions
+            based on the user’s travel profile and unique trip. The platform
+            automates the planning process to make travel hassle-free
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TUTUP BAGIAN KONTEN -->
+
+    <!-- BAGIAN KONTEN 4 -->
+    <div
+      class="
+        bg-cover bg-center
+        w-full
+        mx-auto
+        max-w-screen-2xl
+        py-12
+        px-4
+        sm:px-6
+        md:px-8
+      "
+      id="bagian4"
+    >
+      <div class="text-center">
+        <p class="text-blue-700 m-auto mb-7 inline-block">
+          <img src="img/icon-plane.png" class="inline-block mr-3" /> Addictional
+          Contents
+        </p>
+      </div>
+      <p class="text-5xl font-semibold text-center">
+        Get inspired from Our Blog
+      </p>
+      <br />
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div
+          class="box-content h-96 w-80 shadow-lg p-8 border-4 ml-72 bg-gray-200"
+        >
+          <img src="img/img-Blog1.png" class="bg-center" />
+          <p class="text-3xl font-semibold mt-3 mb-3">Stairway to Heaven</p>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor ...</p>
+          <p class="mt-7 text-xs">Sun, 12 June 2021</p>
+        </div>
+        <div class="box-content h-96 w-80 shadow-lg p-8 border-4 bg-gray-200">
+          <img src="img/img-Blog2.png" class="bg-center" />
+          <p class="text-3xl font-semibold mt-4 mb-3">The Deep Blue</p>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor ...</p>
+          <p class="mt-7 text-xs">Sun, 12 June 2021</p>
+        </div>
+      </div>
+    </div>
+    <!-- TUTUP BAGIAN KONTEN -->
+
+    <!-- INI BAGIAN FOOTER -->
+    <footer class="bg-white pt-10 sm:mt-10 pt-10">
+      <div class="max-w-6xl m-auto flex flex-wrap justify-left">
+        <!-- Col-1 -->
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+          <!-- Col Title -->
+          <div class="text-3xl text-blue-700 font-medium mb-6 font-bold">
+            Mapay<font color="red">.</font>
+          </div>
+
+          <!-- Links -->
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
               text-sm
               font-medium
-              text-gray-600
-              md:flex
-            ">
-                        <li>
-                            <a class="
-                  py-2
-                  hover:bg-red-700
-                  p-5
-                  transition
-                  rounded-lg
-                  text-white
-                  focus:outline-none
-                " href="#">About Us</a>
-                        </li>
-                        <li>
-                            <a class="
-                  py-2
-                  hover:bg-red-700
-                  p-5
-                  transition
-                  rounded-lg
-                  text-white
-                  focus:outline-none
-                " href="#">Features</a>
-                        </li>
-                        <li>
-                            <a class="
-                  py-2
-                  hover:bg-red-700
-                  transition
-                  p-5
-                  rounded-lg
-                  text-white
-                  focus:outline-none
-                " href="#">Offers</a>
-                        </li>
-                        <li>
-                            <a class="
-                  py-2
-                  hover:bg-red-700
-                  transition
-                  p-5
-                  rounded-lg
-                  text-white
-                  focus:outline-none
-                " href="#">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+              duration-700
+            "
+          >
+            4140 Parker Rd. Allentown, New Mexico 31134
+          </a>
+          <!-- Required Unicons (if you want) -->
+          <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+            <a href="#" class="w-10 mx-1">
+              <i><img src="img/medium-m-brands.svg" width="15px" /></i>
+            </a>
+            <a href="#" class="w-10 mx-1">
+              <i><img src="img/pinterest-p-brands.svg" width="15px" /></i>
+            </a>
+            <a href="#" class="w-10 mx-1">
+              <i><img src="img/tiktok-brands.svg" width="15px" /></i>
+            </a>
+            <a href="#" class="w-10 mx-1">
+              <i><img src="img/instagram-brands.svg" width="15px" /></i>
+            </a>
+            <a href="#" class="w-10 mx-1">
+              <i><img src="img/linkedin-in-brands.svg" width="15px" /></i>
+            </a>
+            <a href="#" class="w-10 mx-1">
+              <i><img src="img/twitter-brands.svg" width="15px" /></i>
+            </a>
+            <a href="#" class="w-10 mx-1">
+              <i><img src="img/facebook-f-brands.svg" width="10px" /></i>
+            </a>
+          </div>
         </div>
 
-        <!-- INI TUTUP BAGIAN NAVIGASI -->
+        <!-- Col-2 -->
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+          <!-- Col Title -->
+          <div
+            class="text-xs uppercase text-gray-700 font-medium mb-6 font-bold"
+          >
+            Main Menu
+          </div>
 
-        <!-- INI BAGIAN HEADER -->
-        <header class="bg-blue-900 text-white md:min-h-screen py-12 md:py-60">
-            <div class="w-full px-4 mx-auto max-w-screen-2xl sm:px-6 md:px-40">
-                <h1 class="text-3xl md:text-5xl mb-5">
-                    Sign up now and get an unforgettable trip experiences
-                </h1>
-                <p class="mb-7">
-                    The Ravel Trips app curates experiences as diverse as our users so they can
-                    travel confident
-                </p>
-                <p>
-                    <a href="#" class="rounded-full py-3 px-6 bg-yellow-500">Plan a trip</a>
-                </p>
-
-            </div>
-        </header>
-        <!-- TUTUP INI BAGIAN HEADER -->
-
-        <!--INI ADALAH BAGIAN KONTEN -->
-
-        <!-- Baris konten 1 -->
-
-        <div class="w-full mx-auto max-w-screen-2xl my-20 px-4 sm:px-6 md:px-40">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="mr-20">
-                    <p class="text-blue-700 mb-7"><img src="img/icon-plane.png" class="float-left mr-3">
-                        Why Mapay</p>
-                    <p class="text-5xl mb-7 font-semibold">Built by travelers,
-                        <br>for travelers
-                    </p>
-                    <p class="mb-7">There is information overload and it takes an enormous amount of
-                        time to plan a unique trip</p>
-                    <p>By suggesting trips already created by other travelers and tailored to you,
-                        it's super easy to create your next travel adventure and seamlessly share your
-                        experience with friends on the go</p>
-                </div>
-                <div class="text-right mt-5 md:mt-0">
-                    <img class="inline max-w-full" src="img/img-about.png ">
-                </div>
-            </div>
-            <img class="my-5 md:my-24 mx-auto max-w-full" src="img/step.png" alt="Steps">
+          <!-- Links -->
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Home
+          </a>
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Download
+          </a>
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Blog
+          </a>
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Dark Mode
+          </a>
         </div>
 
-        <!-- tutup baris konten 1 -->
+        <!-- Col-3 -->
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+          <!-- Col Title -->
+          <div
+            class="text-xs uppercase text-gray-700 font-medium mb-6 font-bold"
+          >
+            Company
+          </div>
 
-        <!-- Bagian konten 2 -->
-        <div class="bg-cover bg-center w-full mx-auto max-w-screen-2xl py-12 px-4 sm:px-6 md:px-8"
-            style="background-image: url(img/bg-slide.png)">
-
-            <img src="img/img-iphone.png" class="float-left">
-            <div class="text-white m-0 md:m-36 mb-5">
-                <p> <img src="img/icon-plane.png"
-                        class="ml-3 mr-3 mb-3 filter invert grayscale contrast-100 brightness-100"> Explore our Apps
-                </p>
-                <h1 class="text-4xl mt-5">Find something inspires you?
-                    Take it as your own and start planning!</h1><br>
-                <p>Browse and search an ever-growing collection <br> of exciting and unique trips, custom built <br> by
-                    travelers like you from <br> all over the world</p>
-                <br><br>
-                <p><a href="#" class="rounded-full py-3 px-6 bg-yellow-500">Plan a trip</a></p>
-            </div>
+          <!-- Links -->
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Contacts
+          </a>
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            About Us
+          </a>
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Press Kit
+          </a>
         </div>
 
+        <!-- Col-3 -->
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+          <!-- Col Title -->
+          <div
+            class="text-xs uppercase text-gray-700 font-medium mb-6 font-bold"
+          >
+            Legal
+          </div>
 
-        <!-- TUTUP BAGIAN KONTEN 2 -->
-
-        <!-- Bagian konten 3 -->
-
-        <div class="w-full mx-auto max-w-screen-2xl my-20 md:mt-60 px-4 sm:px-6 md:px-40 clear-both">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="mr-20">
-                    <p class="text-blue-700 mb-7"><img src="img/icon-plane.png" class="float-left mr-3">
-                        Get Inspired</p>
-                    <p class="text-5xl mb-7 font-semibold">Discover trips published and create your own template
-                    </p>
-                    <p class="mb-7">There are 8.6 million tripadvisor entries. Ravel helps to gather and frame your travel ideas to easily plan your trip from your bucket list</p>
-                </div>
-                <div class="text-right">
-                    <img class="inline max-w-full" src="img/illustration-couple.png ">
-                </div>
-            </div>
+          <!-- Links -->
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Terms & Conditions
+          </a>
+          <a
+            href="#"
+            class="
+              my-3
+              block
+              text-gray-700
+              hover:text-gray-100
+              text-sm
+              font-medium
+              duration-700
+            "
+          >
+            Privacy Policy
+          </a>
         </div>
+      </div>
+    </footer>
 
+    <footer class="text-white text-center font-medium mt-auto p-5 bg-gray-500">
+      &copy; Mulaidev Team 2021
+    </footer>
 
-        <div class="w-full mx-auto max-w-screen-2xl my-20 px-4 sm:px-6 md:px-40 clear-both">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="mr-20">
-                    <img class="inline max-w-full" src="img/illustration-freedom.png ">
-                </div>
-                <div>
-                    <p class="text-blue-700 mb-7"><img src="img/icon-plane.png" class="float-left mr-3">
-                        Plan Easily</p>
-                    <p class="text-5xl mb-7 font-semibold">Build your own trip from scratch
-                    </p>
-                    <p class="mb-7">Mapay drives efficiency by pushing only relevant content/suggestions based on the user’s travel profile and unique trip. The platform automates the planning process to make travel hassle-free</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- TUTUP BAGIAN KONTEN -->
-
-        <!-- INI BAGIAN FOOTER -->
-
-        <footer class="text-white text-center font-medium mt-auto p-5 bg-gray-500">
-            &copy;
-            Mulaidev Team 2021
-
-        </footer>
-
-        <!-- INI BAGIAN TUTUP FOOTER -->
-
-    </body>
-
+    <!-- INI BAGIAN TUTUP FOOTER -->
+  </body>
 </html>
