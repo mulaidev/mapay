@@ -5,10 +5,14 @@ HTML Landing page using Tailwind 2 from [this Figma](https://www.figma.com/file/
 ## Quick Setup
 
 1. Open this repository in Visual Studio Code
-2. Open terminal and run: <br> `npx tailwindcss -o style.css --watch --jit --purge="./*.html"`
+2. Open terminal and run Tailwind: <br> `npm start`
 3. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
 4. Open HTML file and click that *Go Live* icon in bottom right corner
 5. Edit HTML file and your style.css will be updated while you add more class
+
+# How to Video
+
+https://user-images.githubusercontent.com/1304703/129088859-0b9afa1c-493c-4c3f-b73e-79c1e2349b17.mp4
 
 ## Silabus
 
