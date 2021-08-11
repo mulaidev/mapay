@@ -1,6 +1,5 @@
 # Silabus Mulai Frontend
 
-Disusun oleh @siriokun @mrgood82
 
 ## Materi Dasar Git
 
@@ -15,9 +14,10 @@ Disusun oleh @siriokun @mrgood82
 
 1. Play in Browser
 2. Link to CDN
-3. Just In Time auto generated CSS with Tailwind CLI
-4. Responsive Layout
-5. Component Management
+3. Just In Time mode
+4. IntelliSense setup
+5. Responsive Layout
+6. Component Management
 
 
 ## Materi Dasar Alpine.Js
