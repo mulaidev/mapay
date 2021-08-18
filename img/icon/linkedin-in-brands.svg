@@ -1,1 +1,23 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.30992in" height="3.30992in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.0991264 0.0991264"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#C2C1C1;stroke-width:0.000831949}
+    .fil0 {fill:none}
+    .fil1 {fill:black}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+   <path class="fil0 str0" d="M0.0495632 0.000415974c0.0271387,0 0.0491472,0.0220086 0.0491472,0.0491472 0,0.0271387 -0.0220086,0.0491472 -0.0491472,0.0491472 -0.0271387,0 -0.0491472,-0.0220086 -0.0491472,-0.0491472 0,-0.0271387 0.0220086,-0.0491472 0.0491472,-0.0491472z"/>
+  </g>
+  <path class="fil1" d="M0.0385205 0.0676973l-0.00946306 0 0 -0.0304737 0.00946306 0 0 0.0304737zm-0.00473666 -0.0346306c-0.00302595,0 -0.0054803,-0.00250634 -0.0054803,-0.00553241 0,-0.00302619 0.00245411,-0.00548041 0.0054803,-0.00548041 0.00302631,0 0.00548041,0.00245422 0.00548041,0.00548041 0,0.00302595 -0.0024554,0.00553241 -0.00548041,0.00553241l0 0zm0.0401538 0.0346306l-0.00944266 0 0 -0.0148344c0,-0.00353543 -7.13335e-005,-0.00806929 -0.00492,-0.00806929 -0.00492,0 -0.00567402,0.00384104 -0.00567402,0.00781461l0 0.0150891 -0.0094528 0 0 -0.0304737 0.00907586 0 0 0.0041568 0.000132527 0c0.00126337,-0.00239421 0.00434945,-0.00492095 0.00895359,-0.00492095 0.0095772,0 0.0113377,0.00630659 0.0113377,0.0144981l0 0.0167397 -1.014e-005 0z"/>
+ </g>
+</svg>
