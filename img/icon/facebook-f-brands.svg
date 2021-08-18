@@ -1,1 +1,24 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.30992in" height="3.30992in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.0991264 0.0991264"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#969594;stroke-width:0.000207987}
+    .str0 {stroke:#C2C1C1;stroke-width:0.000831949}
+    .fil0 {fill:none}
+    .fil1 {fill:black}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+   <path class="fil0 str0" d="M0.0495632 0.000415974c0.0271387,0 0.0491472,0.0220086 0.0491472,0.0491472 0,0.0271387 -0.0220086,0.0491472 -0.0491472,0.0491472 -0.0271387,0 -0.0491472,-0.0220086 -0.0491472,-0.0491472 0,-0.0271387 0.0220086,-0.0491472 0.0491472,-0.0491472z"/>
+  </g>
+  <path class="fil1 str1" d="M0.0650193 0.0537146l0.00184477 -0.0120208 -0.0115344 0 0 -0.0078007c0,-0.00328865 0.00161131,-0.00649429 0.00677715,-0.00649429l0.00524378 0 0 -0.0102344c0,0 -0.00475859,-0.00081214 -0.00930825,-0.00081214 -0.00949879,0 -0.0157077,0.00575738 -0.0157077,0.01618l0 0.00916157 -0.0105588 0 0 0.0120208 0.0105588 0 0 0.0290596 0.0129951 0 0 -0.0290596 0.00968968 0z"/>
+ </g>
+</svg>
