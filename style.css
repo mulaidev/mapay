@@ -762,6 +762,10 @@ video {
   max-width: 72rem;
 }
 
+.flex-initial {
+  flex: 0 1 auto;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
